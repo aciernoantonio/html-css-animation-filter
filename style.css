@@ -172,6 +172,43 @@
     text-align: center;
     text-decoration: none;
 }
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: top_transition 2s linear;
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: bottom_transition 2s linear;
+}
+
+@keyframes top_transition{
+    0%{
+        left: 10%;
+    }
+
+    50%{
+        left: 68%;
+    }
+
+    100%{
+        left: 10%;
+    }
+}
+
+@keyframes bottom_transition {
+    0%{
+        right: 20%;
+    }
+
+    50%{
+        right: 68%;
+    }
+
+    100%{
+        right: 20%;
+    }
+}
+
 .ex-12-top-white, .ex-13-top-white {
     position: absolute;
     top: -10px;
