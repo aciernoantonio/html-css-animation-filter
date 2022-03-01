@@ -35,7 +35,13 @@
     width: 100px;
     height: 100px;
     background: red;
+    transition: visibility 3s;
 }
+
+.ex-4-square:hover{
+    visibility: hidden;
+}
+
 .ex-5-square {
     margin: 20px;
     width: 60px;
